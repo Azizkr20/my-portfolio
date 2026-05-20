@@ -61,4 +61,4 @@ I am currently seeking software engineering internship opportunities where I can
 *   **GitHub:** [@Azizkr20](https://github.com/Azizkr20)
 
 ---
-*Built with ❤️ using Astro & Tailwind CSS. Hosted on Vercel.*
+*Built with ❤️.*
