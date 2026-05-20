@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  font-family:#38bdf8;
+}
+#copy-toast {
+  visibility: hidden;
+  min-width: 200px;
+  background-color: var(--color-accent, #1d759b);
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 12px;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+}
+
+#copy-toast.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein { from { bottom: 0; opacity: 0; } to { bottom: 30px; opacity: 1; } }
+@keyframes fadeout { from { bottom: 30px; opacity: 1; } to { bottom: 0; opacity: 0; } }
