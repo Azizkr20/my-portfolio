@@ -13,6 +13,11 @@ Welcome to my personal portfolio repository! I'm a passionate 3rd-year Computer 
 
 Here are some of the key full-stack systems I've engineered. Click on the project titles to explore their code repositories!
 
+### 🍳 [KitchenMatrix-AI — Cozy Kitchen Customizer & Dual-Engine AI Chef](https://github.com/Azizkr20/KitchenMatrix-AI)
+*A highly interactive, full-stack kitchen simulation and AI-powered recipe mutation platform.*
+*   **The Power:** Features an interactive virtual refrigerator for physical ingredient stocking, a cozy customizer for wall/floor aesthetics, dynamic real-time macronutrient visualization using Chart.js, and a dynamic mind-map connector engine. Engineered with a highly resilient Dual-Engine AI Chef (OpenRouter Llama 3 & Anthropic Claude 3.5 Sonnet backup) and zero-config in-memory MongoDB databases (`mongodb-memory-server` fallback).
+*   **Tech Stack:** React, Node.js, Express.js, MongoDB, Claude SDK, Chart.js, Mind-Map SVG.
+
 ### 🌲 [TunCamp — Map-Integrated Campsite Finder](https://github.com/Azizkr20/TunCamp)
 *An interactive, full-stack platform designed for discovering and sharing Tunisian campsites.*
 *   **The Power:** Implemented real-time interactive mapping and navigation APIs, secure authentication, and a community-driven safety rating system to help campers find secure outdoor spots.

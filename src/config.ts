@@ -13,6 +13,13 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js","Express.js","MongoDB"," Passport.js", "Python","Django","PostgreSQL","Odoo","Cloudinary"],
   projects: [
     {
+      name: "KitchenMatrix-AI | Cozy Kitchen Customizer & Dual-Engine AI Chef Platform",
+      description:
+        "A highly interactive, full-stack kitchen simulation and AI recipe planner. Features an interactive virtual refrigerator for ingredient management, a cozy customizable kitchen space, dynamic Chart.js macro tracking, and a smart Mind-Map SVG connector engine. Powered by a resilient Dual-Engine AI Chef (OpenRouter Llama 3 & Anthropic Claude 3.5 Sonnet) with offline heuristic fallbacks.",
+      link: "https://github.com/Azizkr20/KitchenMatrix-AI",
+      skills: ["React", "Node.js", "Express.js", "MongoDB", "Claude SDK", "OpenRouter API", "Chart.js", "SVG/CSS Rendering"],
+    },
+    {
       name: "TunCamp | Map-Integrated Tunisian Campsite Finder & Safety Platform | Lead Full-Stack Developer",
       description:
         "A full-stack web application that serves as an interactive platform for discovering Tunisian campsites. Built with a Node.js/Express.js backend and a responsive UI, it integrates Map APIs for real-time navigation and campsite location. Features a community-driven safety rating system, user reviews, and secure authentication to help outdoor enthusiasts find and share secure locations.",
